@@ -24,23 +24,22 @@
  
 .about_profile_img {
   background-color: var(--green);
-  margin-left: 2.1vw;
-  margin-top: 2.2vw;
+  margin-left: 2.0vw;
+  margin-top: 2.0vw;
   width: 300px;
-  height: 298px;
+  height: 530px;
   border-radius: 10px;
 }
  
 .about_img_border {
   width: 300px;
-  height: 300px;
+  height: 530px;
   position: absolute;
   border: 2px solid var(--green);
   border-radius: 10px;
   margin-top: 30px;
   margin-left: 30px;
   transition: var(--transition);
-  z-index: -1;
 }
  
 .about_profile_img:hover ~ .about_img_border {

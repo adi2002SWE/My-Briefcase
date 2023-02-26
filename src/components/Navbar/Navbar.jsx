@@ -1,10 +1,14 @@
 import React from "react";
 import "./Navbar.css";
+import Pdf from "./Resume(Pho-with).pdf";
+
 const Navbar = () => {
+  const onResumeClick=()=> {
+    window.open(Pdf);
+  }
   return (
     <nav className="nav_container">
       <div className="nav_left">
-        {/* <a>SN</a> */}
       </div>
 
       <div className="nav_right">
@@ -24,7 +28,7 @@ const Navbar = () => {
           Contact
         </a>
 
-        <button className="nav_resume_btn">Resume</button>
+        <button className="nav_resume_btn" onClick={onResumeClick}>Resume</button>
       </div>
     </nav>
   );

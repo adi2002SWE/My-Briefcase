@@ -15,20 +15,20 @@ const About = () => {
           </p>
           <p className="about_desc">
             {" "}
-            I am Shivam Sahu. I from Haripur, Amethi, Uttarpradesh. I completed my primary and secondary 
-            education at Saraswati Shiksha Mandir. 
-            Currently, I am pursuing my Bachelor's of Technology in CSE from Lovely professional University, Jalandhar, Punjab. 
+            I am Aditya verma. I am from Varanasi, Uttarpradesh. I completed my schooling from
+            B.N.S. School, Kursato, Chuakhandi, Varanasi.
+            Currently, I am pursuing my Bachelor's of Technology in Computer Science & Engineering from Lovely professional University, Jalandhar, Punjab. 
             My short-term goal is to complete my college studies and get placed in a reputed IT company.
-            My long-term goal is to become a successful Full Stack Developer with maximum experience.
-            My strengths are I am a quick learner, self-motivated and punctual.
-            My hobbies are playing video games, playing chess, and video editing.
-            I am interested in Cloud computing, Metavers and Data Science.
+            My long-term goal is to become a successful software engineer with maximum experience.
+            My strengths are I am a smart-worker, self-motivated and punctual.
+            My hobbies are playing video games, playing chess, and Online Competetive Exam.
+            I am interested in Cloud computing and Machine Learning.
 
           </p>
         </div>
 
         <div className="about_right">
-        <img className="about_profile_img" src={require('./shivam.JPG')} alt="ClickMe" />
+        <img className="about_profile_img" src={require('./Pro-pho.jpg')} alt="ClickMe" />
 
           <div className="about_img_border" />
         </div>

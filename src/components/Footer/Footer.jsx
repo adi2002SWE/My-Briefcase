@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer_container">
-      <h1 className="footer_text">Built by Shivam Sahu </h1>
+      <h1 className="footer_text">Built by: Aditya Verma </h1>
     </footer>
   );
 };

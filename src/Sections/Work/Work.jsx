@@ -10,35 +10,34 @@ const Work = () => {
         {constant.projects.map((project, idx) => (
           <div className="work_project">
             <div className="work_left">
-              <a href={project.link} target="_blank" rel="noreferrer">
+              <a href={project.live} target="_blank" rel="noreferrer">
                 <img className="work_img" src={require('./MyPro.jpg')} alt="MyProject" />
               </a>
             </div>
             <div className="work_right">
-              <a href="https://shivamsahu2001.github.io/capstone_project/" target="_blank" rel="noreferrer">
-                Art Store
+              <a href={project.link} target="_blank" rel="noreferrer">
+                {project.title}
               </a>
-              <p className="work_desc">It is a e-commerce website in which customer can buy differnt art of their choices.</p>
-              <div className="work_skill_container">
-              HTML Js React-Js
-              </div>
+              <p className="work_desc">{project.desc1}</p>
+              <p className="work_desc">{project.desc2}</p>
+              <div className="work_skill_container">{project.skills}</div>
               <div>
                 <a
-                  href= "https://github.com/ShivamSahu2001"
+                  href= {project.github}
                   target="_blank"
                   className="work_link"
                   rel="noreferrer"
                 >
                   Github
                 </a>
-                {/* <a
-                  href={project.link}
+                <a
+                  href={project.live}
                   target="_blank"
                   className="work_link"
                   rel="noreferrer"
                 >
                   Live
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

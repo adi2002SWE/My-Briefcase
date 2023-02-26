@@ -4,32 +4,46 @@
             "company":"React-Js",
             "link": "/",
             "title": "frontend developer",
-            "duration":"April 2022 - Feb 2023",
+            "duration":"Dec 2022 - Feb 2023",
             "desc": [
                 "The React. js framework is an open-source JavaScript framework and library developed by Facebook. ",
-                "It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript"
+                "It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript",
+                "React aids in the creation of interactive user interfaces. Create basic views for each state of your project, and React will update and render the appropriate components whenever your data changes. "
                 
             ]
         },
         { 
-            "company":"Java",
+            "company":"C++",
             "link": "/",
-            "title": "software developer",
+            "title": "Basic Knowledge",
             "duration":"Jan 2022 - May 2022",
             "desc": [
-                "Java is a popular programming language, created in 1995.",
-                "Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs"
+                "C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs. C++ is portable and can be used to develop applications that can be adapted to multiple platforms.",
+                "C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights."
             ]
-        }     
+        },
+        { 
+            "company":"DSA",
+            "link": "/",
+            "title": "Basic Implementation",
+            "duration":"Jan 2022 - May 2022",
+            "desc": [
+                "DSA stands for Data Structures and Algorithms. It is also sometimes referred to as PSDS - Problem Solving Data Structures. ",
+                "DSA is applied in problem-solving and enables developers to learn to write efficient code. The quality of the code can be judged by how much memory and time it consumes.",
+                "Array, String, LinkedList, Stack, Queue, Tree, Graph etc. "
+            ]
+        }    
     ],
     "projects": [
         {
-            "title": "Quiz App",
-            "image": "img.png",
-            "desc":"exercitation ullamco laboris nisi ut",
-            "skills":["Vue", "Express", "Mongodb"],
-            "github": "/",
-            "link": "/"
+            "title": "Mystery Art-Store",
+            "image": "./src/Sections/About/Pro-pho.jpg",
+            "desc1":"It is a e-commerce website in which customer can buy differnt art of their choices.",
+            "desc2" :"“𝔄𝔫 𝔞𝔯𝔱𝔦𝔰𝔱 𝔦𝔰 𝔫𝔬𝔱 𝔭𝔞𝔦𝔡 𝔣𝔬𝔯 𝔥𝔦𝔰 𝔩𝔞𝔟𝔬𝔯 𝔟𝔲𝔱 𝔣𝔬𝔯 𝔥𝔦𝔰 𝔳𝔦𝔰𝔦𝔬𝔫.”",
+            "skills":["HTML  ", "  Js ", "  React-Js"],
+            "github": "https://github.com/adi2002SWE",
+            "link": "https://github.com/adi2002SWE/Mystery-Art-Store",
+            "live":"https://mystery-arts-store.netlify.app/"
         }
     ]
 }

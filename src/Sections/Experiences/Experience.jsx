@@ -28,19 +28,12 @@ const Experience = () => {
         <div className="experience_right">
           <h1 className="experience_title">
             {" "}
-            {constant.experiences[currentIdx].title}@
-            <a
-              href={constant.experiences[currentIdx].link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {constant.experiences[currentIdx].company}
-            </a>
+            {constant.experiences[currentIdx].title}
           </h1>
 
-          <p className="experience_duration">
+          {/* <p className="experience_duration">
             {constant.experiences[currentIdx].duration}
-          </p>
+          </p> */}
 
           {constant.experiences[currentIdx].desc.map((point) => (
             <p className="experience_desc"><PlayArrowIcon />{point}</p>
