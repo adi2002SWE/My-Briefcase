@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Pdf from "./Resume(Pho-with).pdf";
+import Pdf from "./CV_LPU_Format.pdf";
 
 const Navbar = () => {
   const onResumeClick=()=> {
