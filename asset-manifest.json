@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/My-Briefcase/static/css/main.c61e0721.css",
+    "main.js": "/My-Briefcase/static/js/main.3756d32c.js",
+    "static/media/CV_LPU_Format.pdf": "/My-Briefcase/static/media/CV_LPU_Format.0d628c5e1afbbbc7822b.pdf",
+    "static/media/MyPro.jpg": "/My-Briefcase/static/media/MyPro.44ff657b851608c61958.jpg",
+    "static/media/Pro-pho.jpg": "/My-Briefcase/static/media/Pro-pho.ac668f490af103faa7a4.jpg",
+    "index.html": "/My-Briefcase/index.html",
+    "main.c61e0721.css.map": "/My-Briefcase/static/css/main.c61e0721.css.map",
+    "main.3756d32c.js.map": "/My-Briefcase/static/js/main.3756d32c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c61e0721.css",
+    "static/js/main.3756d32c.js"
+  ]
+}
